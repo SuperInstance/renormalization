@@ -1,0 +1,11 @@
+[package]
+name = "renormalization"
+version = "0.1.0"
+edition = "2021"
+license = "MIT OR Apache-2.0"
+description = "Renormalization group in Rust — scaling transformations, fixed points, universality, critical exponents, epsilon expansion"
+repository = "https://github.com/SuperInstance/renormalization"
+
+[dependencies]
+serde = { version = "1", features = ["derive"] }
+nalgebra = "0.33"
